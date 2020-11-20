@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.419">
+<testcase classname="FhcTrip Registiration" name="fhcTrip registiration test" time="19.729">
+<system-out><![CDATA[Given kullanici fhctrip sayfasindadir.......................................passed
+And kullanici creat a new account butonuna tiklar...........................passed
+And kullanici username girer "Yunusemre"....................................passed
+And kullanici password girer "12345"........................................passed
+And kullanici email girer "techproedtest@gmail.com".........................passed
+And kullanici Fullname girer "Yunus Emre"...................................passed
+And kullanici phone number girer "05431234567"..............................passed
+And kullanici social security number girer "321219384757"...................passed
+And kullanici driving licence girer "98762".................................passed
+And kullanici country secer.................................................passed
+And kullanici state secer...................................................passed
+And kullanici address girer "Goethe Str. 9".................................passed
+And kullanici working sector girer "IT".....................................passed
+And kullanici birth date girer "21.12.1970".................................passed
+Then kullanici Save butonuna tiklar.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

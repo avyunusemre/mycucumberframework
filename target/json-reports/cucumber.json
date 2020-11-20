@@ -1,0 +1,300 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-12T23:35:19.903Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "fhcTrip registiration test",
+        "description": "",
+        "id": "fhctrip-registiration;fhctrip-registiration-test",
+        "after": [
+          {
+            "result": {
+              "duration": 1430000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13904000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici fhctrip sayfasindadir",
+            "match": {
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_fhctrip_sayfasindadir()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1596000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici creat a new account butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_creat_a_new_account_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici username girer \"Yunusemre\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yunusemre\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_username_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici password girer \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_password_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici email girer \"techproedtest@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"techproedtest@gmail.com\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_email_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici Fullname girer \"Yunus Emre\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yunus Emre\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_Fullname_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "kullanici phone number girer \"05431234567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"05431234567\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_phone_number_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "kullanici social security number girer \"321219384757\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"321219384757\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_social_security_number_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "kullanici driving licence girer \"98762\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"98762\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_driving_licence_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici country secer",
+            "match": {
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_country_secer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 567000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "kullanici state secer",
+            "match": {
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_state_secer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "kullanici address girer \"Goethe Str. 9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Goethe Str. 9\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_address_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "kullanici working sector girer \"IT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IT\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_working_sector_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "kullanici birth date girer \"21.12.1970\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"21.12.1970\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_birth_date_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "kullanici Save butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.FhcRegistirationStepDef.kullanici_Save_butonuna_tiklar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fhcregistiration"
+          }
+        ]
+      }
+    ],
+    "name": "FhcTrip Registiration",
+    "description": "",
+    "id": "fhctrip-registiration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/fhcregister.feature",
+    "tags": [
+      {
+        "name": "@fhcregistiration",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
